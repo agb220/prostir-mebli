@@ -55,6 +55,7 @@
     -webkit-transition: left 0.3s ease 0s;
     transition: left 0.3s ease 0s;
     overflow: auto;
+    z-index: 5;
   }
   .menu-body::before {
     content: "";
@@ -127,7 +128,7 @@
     margin-bottom: 10px;
   }
   .page-production .production-img .img-photo {
-    width: 369px;
-    height: 250px;
+    min-width: 369px;
+    min-height: 250px;
   }
 }
